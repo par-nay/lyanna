@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lyanna"
+version = "2.0.0"
+description = "Lyman-alpha Neural Network Analysis"
+authors = [
+  { name = "Parth Nayak", email = "parth3e8@gmail.com" }
+]
+dependencies = [
+  "scipy",
+  "numpy",
+  "h5py",
+  "tqdm",
+  "emcee",
+  "pyyaml",
+  "matplotlib",
+  "tensorflow==2.12.1",
+  "chainconsumer==0.34.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "black",
+]
+
+[tool.setuptools]
+packages = ["lyanna"]
+
+[tool.setuptools.package-dir]
+"" = "."
+
