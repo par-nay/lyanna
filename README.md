@@ -1,5 +1,5 @@
 # LyαNNA
-### Lyman-$\alpha$ Neural Network Analysis
+### Lyman- $\alpha$ Neural Network Analysis
 
 LyαNNA is a deep learning framework for field-level inference with the Lyα forest. The framework is presented in  Nayak et al. ([2024](https://arxiv.org/abs/2311.02167), [2025](https://arxiv.org/abs/2510.19899)).
 
